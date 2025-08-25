@@ -1,0 +1,45 @@
+body{
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.nav{
+  background-color:blue;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: white;
+}
+.logo {
+  height: 40px;
+}
+.nav a:hover {
+  background-color:white;
+  border-radius: 4px;
+  color: yellow;
+}
+
+.nav a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+input[type="text"] {
+  padding: 6px 10px;
+  border: none;
+  font-size: 14px;
+  margin-right: 10px;
+}
+button{
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+button:hover{
+  background-color: darkgreen;
+}
+
+
